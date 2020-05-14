@@ -1,1033 +1,717 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="description" content=".hack(); -24 hours Hackathon">
-    <meta name="keywords" content=".hack(); , Hackathon , Code">
-    <meta name="author" content="MaceHub">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- ========== Title ========== -->
-    <title> .hack();</title>
-    <!-- ========== Favicon Ico ========== -->
-    <link rel="icon" href="assets/img/logo.ico">
-    <!-- ========== STYLESHEETS ========== -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>.hack();</title>
+
+    <link rel="icon" href="images/icons/logo.ico">
+
+    <!-- preload -->
+    <link rel="preload" href="./images/covers/1cover.jpg" as="image"> 
+    <link rel="preload" href="./images/covers/2cover.jpg" as="image"> 
+    <link rel="preload" href="./images/covers/IMG-20200209-WA0175.jpg" as="image"> 
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Icon CSS -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/et-line.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
-    <!-- Carousel CSS -->
-    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-<div class="loader">
-    <div class="loader-outter"></div>
-    <div class="loader-inner"></div>
-</div>
+    <link rel="stylesheet" href="./css/bootstrap.mel.css"> <!-- Custom bootstrap css-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-<header id="header">
-    <div class="container">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="./css/fontawesome-all.min.css">
 
-      <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#home" class="scrollto"><img src="assets/img/logo.png" alt=".hack();" title=""></a>
-      </div>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="./css/swiper.min.css">
 
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-          <li class="menu-active"><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#speaker">Speakers</a></li>
-          <li><a href="#prize">Prize</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#venue">Venue</a></li>
-        <!--  <li><a href="#gallery">Gallery</a></li> -->
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#sponsors">Sponsors</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#idea">Submit Profile</a></li>
-        </ul>
-      </nav><!-- #nav-menu-container -->
-    </div>
-  </header><!-- #header -->
+    <!-- Preloader -->
+    <link rel="stylesheet" href="./css/preloader.css">
 
-<!--cover section slider -->
-<section id="home" class="home-cover">
-    <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('assets/img/bg/slider3.jpg');">
-             <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Prepare yourself for
-                            </h2>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
 
-                            <img class="logo" src="assets/img/writing.png" alt=".hack();">
-                            <p class="cover-date">
-                                1-2 February 2020  - Ernakulam, Kerala.
-                            </p>
-                            <div class=" btn" >
-                              <a href="#idea" class="scrollto"><button id="devfolio-apply-now2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider1.jpg');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-left">
-                            <h2 class="cover-title">
-                                Prepare yourself for
-                            </h2>
-                            <img class="logox" src="assets/img/writing.png" alt=".hack();">
-                            <p class="cover-date">
-                                1-2 February 2020  - Ernakulam, Kerala.
-                            </p>
-                            <div class=" btn" >
-                              <a href="#idea" class="scrollto"><button id="devfolio-apply-now2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cover_item" style="background: url('assets/img/bg/slider2.jpg');">
-            <div class="slider_content">
-                <div class="slider-content-inner">
-                    <div class="container">
-                        <div class="slider-content-center">
-                            <h2 class="cover-title">
-                                Prepare yourself for
-                            </h2>
-                            <img class="logo" src="assets/img/writing.png" alt=".hack();">
-                            <p class="cover-date">
-                                1-2 February 2020  - Ernakulam, Kerala.
-                            </p>
-                            <div class=" btn" >
-                              <a href="#idea" class="scrollto"><button id="devfolio-apply-now2"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--cover section slider end -->
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<!--event info -->
-<section class="pt100 pb100 wow fadeInUp">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-calendar-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            DATE
-                        </h5>
-                        <p>
-                            1-2 February 2020
-                        </p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-location-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            location
-                        </h5>
-                        <p>
-                            Integrated Startup Complex, Ernakulam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-person-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            speakers
-                        </h5>
-                        <p>
-                            John Mathew and more
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-pricetag-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            tickets
-                        </h5>
-                        <p>
-                            Free
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--event info end -->
-
-
-<!--event countdown -->
-<section class="bg-img pt70 pb70 wow fadeInUp" style="background-image: url('assets/img/bg/bg-img.png');">
-    <div class="overlay_dark"></div>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-10">
-                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
-                <div class="countdown"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--event count down end-->
-
-
-<!--about the event -->
-<section id="about" class="pt100 pb100 wow fadeInUp">
-
-    <div class="container">
-
-        <div class="section-header">
-            <h2 >
-                About the Event
-            </h2>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-6">
-                <p class="text-black">
-                  .hack(); devises to bring bright minds from across the country to compete and build solutions for problems they met within day-to-day lives.<br><br>
-We aim at creating opportunities that students generally lack, real-life working experience, rapid problem-solving skills, thinking in terms of product and engaging in a team to support and grow and finally, the ultimate exposure to the industry. 
-
-                </p>
-            </div>
-            <div class="col-12 col-md-6">
-                <p class="text-black">
-                      Come devise viable ideas to solve real-life problems.<br>Use this platform for the application of software and hardware technologies you have learned, get along with industry professionals and gain the experience they share!
-                </p>
-            </div>
-        </div>
-
-        <!--event features-->
-        <div class="row justify-content-center mt30">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-mic"></i>
-                    <div class="content">
-                        <h4>Multitude of Speakers</h4>
-                        <p>
-                            We try to bring the best speakers from industry, who can share the light of experience with our participants.
-                        </p>
-                      
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-rocket"></i>
-                    <div class="content">
-                        <h4>Coding Marathon</h4>
-                        <p>
-                            It's a marathon where code is your tool and product is your finish line. Run, run, run.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-bullhorn"></i>
-                    <div class="content">
-                        <h4>Three Prize Winners</h4>
-                        <p>
-                            Cash prizes are alloted for the best 3 teams and many more surprise prizes awaits the particpants.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="icon_box_one">
-                    <i class="lnr lnr-clock"></i>
-                    <div class="content">
-                        <h4>24hrs of Developing</h4>
-                        <p>
-                            All you have is 24-hours to realize your idea and bag the ultimate prize.
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--event features end-->
-    </div>
-</section>
-<!--about the event end -->
-
-
-<!--speaker section-->
-<section id="speaker" class="pb100 wow fadeInUp">
-
-    <div class="container">
-        <div class="section-header">
-
-            <h2>
-               Our Speakers
-            </h2>
-            <p>Here are some of our speakers</p>
-        </div>
-
-    <div class="row justify-content-center no-gutters">
-        <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/speakers/IMG_3792.jpg" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">John Mathew</h5>
-                        <p class="position">Co-Founder & CEO</p>
-                        <h5 class="company">Riafy Technologies</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-
-        </div>
-       <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/speakers/SP2.jpg" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">Ravindranath A V</h5>
-                        <p class="position">CEO</p>
-                        <h5 class="company">Innovature Labs</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-      <!--  <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/speakers/unknown.jpg" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">TBA</h5>
-                        <p class="position">...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="speaker_box">
-                <div class="speaker_img">
-                    <img src="assets/img/speakers/unknown.jpg" alt="speaker name">
-                    <div class="info_box">
-                        <h5 class="name">TBA</h5>
-                        <p class="position">...</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-      </div>
-</section>
-<!--speaker section end -->
-
-<!--Price section-->
-<section id="prize" class="pb100 wow fadeInUp">
-    <div class="container">
-        <div class="section-header mb50">
-            <h2>
-                Prizes
-            </h2>
-            <p>Grab the opportunity to win exciting prizes</p>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-4 col-12">
-            <div class="price_box first">
-                <div class="price_header">
-                    <h4>
-                        First Prize
-                    </h4>
-                    <br>
-                    <h2>
-                      ₹15,000
-                    </h2>
-                </div>
-                <div class="price_tag">
-                  <!--  85 <sup>$</sup>  -->
-                </div>
-
-            </div>
-        </div>  
-          <div class="col-md-4 col-12">
-                <div class="price_box second" >
-                   <div class="price_header">
-                       <h4>
-                           Second Prize
-                       </h4>
-                       <br>
-                       <h2>
-                        ₹8,000
-                       </h2>
-                   </div>
-                    <div class="price_tag">
-                      <!--  65 <sup>$</sup> -->
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-md-4 col-12">
-                <div class="price_box third">
-                    <div class="price_header">
-                        <h4>
-                            Third Prize
-                        </h4>
-                        <br>
-                        <h2>
-                          ₹5,000
-                        </h2>
-                    </div>
-                    <div class="price_tag">
-                      <!--  95 <sup>$</sup>  -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="price_box special">
-                <p>Best Project Built on Ethereum</p>
-                <h4>₹10,000</h4>
-              </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="price_box special">
-                <p>Best Project Built on Ethereum and Matic</p>
-                <h4>₹15,000</h4>
-              </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="price_box special">
-                <h3>Top 5 team</h3> 
-                <p>Award Letters From Wolfram For Each Member in Team</p>
-                <h4>Worth $375.00</h4>
-              </div>
-            </div>
-            <div class="col-md-6 col-12">
-              <div class="price_box special">
-                <h3>iBeacon Project</h3> 
-                <p>Best Project Developed Using iBeacon Given By Pinmicro</p>
-                <h4>Special Prize</h4>
-              </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</section>
-<!--price section end -->
-
-
-<!--Submit Your Idea-->
-<section id="idea" class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
-    <div class="container">
-        <div class="section-header mb30">
-            <h2 class="title color-light">
-                Submit Your Profile
-            </h2>
-        </div>
-        <div class="row justify-content-center align-items-center">
-            <div class="col-md-9 text-md-left text-center color-light">
-                Here is the portal to submit your profile and complete the first phase of registration. Here you need to submit your Devfolio profile for evaluation. Make sure you have filled all the fields perfectly and has shared the links to you valid handles like GitHub, previous works and your Awards/Achievements.<br> Your selection will be based on the evaluation of your team strength and the skills you put forward.<br>Check out the FAQ section for more details about the event.
-            </div>
-            <div class="col-md-3 text-md-right text-center">
-              <div class=" btn" >
-                <button id="devfolio-apply-now"><svg class="logo" xmlns="http://www.w3.org/2000/svg" fill="#fff"viewBox="0 0 115.46 123.46" style="height:24px;width:24px;margin-right:8px"><path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 2.18.08 3.34z" /><path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 55.41 0 0 1 50.58 55.34z"/></svg>Apply with Devfolio</button>                            
-              </div>            
-            </div>
-        </div>
-    </div>
-</section>
-<!--Submit Your Idea section end-->
-
-
-<!--==========================
-      Schedule Section
-    ============================-->
-    <section id="schedule" class="section-with-bg wow fadeInUp">
-
-        <div class="container">
-            <div class="section-header mb50">
-
-                <h2 class="title">
-                    Event Schedule
-                </h2>
-                <p>Here is our event schedule</p>
-            </div>
-
-          <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
-            </li>
-          </ul>
-
-          <h3 class="sub-heading">Plan accordingly!!!</h3>
-
-          <div class="tab-content row justify-content-center">
-
-            <!-- Schdule Day 1 -->
-            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>08:00 AM</time></div>
-                <div class="col-md-10">
-                  <h4>Registration</h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>9:30 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Inaugration and Keynote <span>  TBA</span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:30 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Hack Begins <span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>12:30 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>LUNCH<span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-               <div class="col-md-2"><time>01:30 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>First Round Evaluation<span>  Hack Continues</span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>05:00 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>TEA <span> Networking oppurtunities!</span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>05:30 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Hack Continues.<span></span></h4>
-
-                </div>
-              </div>
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>09:00 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>DINNER<span></span></h4>
-
-                </div>
-              </div>
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:00 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>POWER MENTORING.<span>  Hack continues...</span></h4>
-
-                </div>
-              </div>
-
-
-            </div>
-            <!-- End Schdule Day 1 -->
-
-            <!-- Schdule Day 2 -->
-            <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>00:00 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Recreational Activites<span>   Lots of it!</span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>08:00 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>BREAKFAST <span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>09:00 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Hack Continues <span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:30 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Hack Ends <span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>10:30 AM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Final Evaluation <span></span></h4>
-
-                </div>
-              </div>
-
-              <div class="row schedule-item">
-                 <div class="col-md-2"><time>12:30 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>RESULTS <span> Closing Ceremony</span></h4>
-
-                </div>
-              </div>
-              <div class="row schedule-item">
-                <div class="col-md-2"><time>01:30 PM</time></div>
-                <div class="col-md-10">
-
-                  <h4>Event Dispersal <span></span></h4>
-
-                </div>
-              </div>
-            <!-- End Schdule Day 2 -->
-
-          </div>
-
-        </div>
-
-      </section>
-
-    <!--schedule section ends-->
-
-<!--==========================
-      Venue Section
-    ============================-->
-    <section id="venue" class="pb100 pt100 wow fadeInUp">
-
-        <div class="container-fluid">
-            <div class="container">
-            <div class="section-header mb50">
-                <h2 class="title">
-                    Event Venue
-                </h2>
-            </div>
-        </div>
-  
-          <div class="row no-gutters">
-            <div class="col-lg-6 venue-map">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1964.2649715675814!2d76.354551!3d10.055592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8a74d3745a2a0d6!2sKerala%20Technology%20Innovation%20Zone%20KTIZ!5e0!3m2!1sen!2sin!4v1580497268332!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            </div>
-  
-            <div class="col-lg-6 venue-info">
-              <div class="row justify-content-center">
-                <div class="col-11 col-lg-8">
-                  <h3>Integrated Startup Complex</h3>
-                  <p>Experience 24-hours of fun filled developing experience at South Asia's largest innovation hub, which is also home to a multitude of startups in Kerala in the growing as well as grown up stage.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-  
-        </div>
-
-    </section>
-<!--==========================
-      F.A.Q Section
-    ============================-->
-    <section id="faq" class="section-with-bg-faq wow fadeInUp">
-
-        <div class="container">
-            <div class="section-header mb50">
-                <h2 class="title">
-                    FAQ
-                </h2>
-            </div>
-
-     <div class="row justify-content-center">
-          <div class="col-lg-6">
-             <ul id="faq-list">
-
-                  <li>
-                    <a data-toggle="collapse" class="collapsed" href="#faq1">Who can Participate? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq1" class="collapse" data-parent="#faq-list">
-                      <p>
-                        Everyone who is a student at the time of event can participate, irrespective of your course, stream or branch. If you are below 18 years of age, you need to bring parental consent.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq2" class="collapsed">How does application process work? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq2" class="collapse" data-parent="#faq-list">
-                      <p>
-                        We’re looking for people who "do"! Folks who are passionate enough to work on crazy world-changing ideas. Tell us what makes you apply to .hack(); , what excites you, accomplishments you are proud of and whatever else you think can strengthen your chances of acceptance. We’ll get to know more about your abilities from the past projects, GitHub profile, participation/awards in other hackathons.                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq3" class="collapsed">Can we apply as a team? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq3" class="collapse" data-parent="#faq-list">
-                      <p>
-                        Yes! This hackathon is strictly a team competition. We believe that you’re stronger as a team than you are apart. You can join or create a team once you've started an individual application.                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq4" class="collapsed">What about Hardware? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq4" class="collapse" data-parent="#faq-list">
-                      <p>
-                        If you are doing a hardware hack and have a specific hardware in mind, bring it with you.                      
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq5" class="collapsed">When will the application close? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq5" class="collapse" data-parent="#faq-list">
-                      <p>
-                        The application portal will be closed on January 15th at 11:59pm IST. We evaluate applications on a rolling basis and acceptances will be sent every weekend via email. The sooner you apply, the better chances you have of acceptance. Once accepted, you’ll have three days to confirm your attendance.
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq6" class="collapsed">How much does it cost? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq6" class="collapse" data-parent="#faq-list">
-                      <p>
-                        Zero. Zip. Zilch. Nada. Nothing. Admission to .hack(); is completely free. We'll provide you with a weekend's worth of schwag, meals, drinks, snacks.
-                      </p>
-                    </div>
-                  </li>
-            </ul>
-
-          </div>
-      <div class="col-lg-6">
-       <ul id="faq-list">
-                   <li>
-                    <a data-toggle="collapse" href="#faq7" class="collapsed">How big can a team be? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq7" class="collapse" data-parent="#faq-list">
-                      <p>
-                        You can form teams of up to 5 people. Most teams aim to have a mix of people with both design and developer skills.                      </p>
-                    </div>
-                  </li>
-
-                 <li>
-                    <a data-toggle="collapse" href="#faq8" class="collapsed">What do I need to bring on the day of hackathon? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq8" class="collapse" data-parent="#faq-list">
-                      <p>
-                        A valid school/college issued photo ID, laptop, phone, chargers, specific hardware for you hack, any sleeping equipment you might want and a geeky t-shirt!
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq9" class="collapsed">What do I get by attending .hack();? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq9" class="collapse" data-parent="#faq-list">
-                      <p>
-                        Pretty much everything from socializing with fellow hacker community to internship/job offers from the coolest tech companies. And yeah we’ll have cash prizes around 1000$ for you to grab. Most of all, you will gain an unparalleled learning experience and memories for a lifetime!
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq10" class="collapsed">How does the judging work? <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq10" class="collapse" data-parent="#faq-list">
-                      <p>
-                        A panel of some of the biggest names in tech will evaluate hacks based on creativity, technical difficulty, design, and usefulness. The top 5 overall projects will demo what they have built in front of all of .hack(); during our closing ceremonies. New judges will be announced on a rolling basis on Twitter and Instagram, so make sure to follow us.                      
-                      </p>
-                    </div>
-                  </li>
-                    
-                    <li>
-                    <a data-toggle="collapse" href="#faq11" class="collapsed">Can I start working on the project before the event?<i class="fa fa-minus-circle"></i></a>
-                    <div id="faq11" class="collapse" data-parent="#faq-list">
-                      <p>
-                         No. In the interest of fairness, students should not be working on their projects before .hack(); begins and we do not allow participants to work on pre-existing projects. However, you can start thinking of ideas and familiarize yourself with all the tools and technologies you intend to use beforehand!                      
-                      </p>
-                    </div>
-                  </li>
-
-                  <li>
-                    <a data-toggle="collapse" href="#faq12" class="collapsed">404: Question not found!!! <i class="fa fa-minus-circle"></i></a>
-                    <div id="faq12" class="collapse" data-parent="#faq-list">
-                      <p>
-                        If you have any other questions or concerns, just send us a #tweet at <a class="ancor" href="https://twitter.com/MaceSb">@MaceSb</a> or reach out to us via email at <br><a class="ancor" href="mailto:hack-core@googlegroups.com"> hack-core@googlegroups.com</a>                      
-                      </p>
-                    </div>
-                  </li>
-               </ul>
-             </div>
-          </div>
-     </div>
-  </section>
-
-
-<!--brands section -->
-<section id="sponsors" class="bg-gray pt100 pb100 wow fadeInUp">
-    <div class="container">
-        <div class="section-header mb50">
-            <h2>
-                our partners
-            </h2>
-        </div>
-        <div class="section-subheader">
-          <h3 >Main Sponsors</h3>
-        </div>
-        <div class="cover_slider owl-carousel" >
-            <div class="brand_item text-center">
-                <a href="https://pinmicro.com/en/index.html"><img src="assets/img/brands/pinmicro.png" alt="brand"></a>
-            </div>
-        </div>
-        <div class="section-subheader">
-          <h3 >Title Sponsors</h3>
-        </div>
-        <div class="cover_slider owl-carousel" >
-            <div class="brand_item text-center">
-                <a href="https://devfolio.co/"><img src="assets/img/brands/devfolio.png" alt="brand"></a>
-            </div>
-        </div>
-        <div class="section-subheader">
-          <h3 >Community Partners</h3>
-        </div>
-        <div class="brand_carousel owl-carousel" >
-            <div class="brand_item text-center">
-                <a href="https://www.ieee.org"><img src="assets/img/brands/ieee_logo.png" alt="brand"></a>
-            </div>
-            <div class="brand_item text-center">
-              <a href="https://kuttycoders.in"><img src="assets/img/brands/kuttycoderslogo.png" alt="brand"></a>
-          </div>
-          <div class="brand_item text-center">
-            <a href="https://studentpartners.microsoft.com/"><img src="assets/img/brands/msp1.png" alt="brand"></a>
-        </div><div class="brand_item text-center">
-          <a href="https://studentpartners.microsoft.com/"><img src="assets/img/brands/msp2.png" alt="brand"></a>
-      </div>
-
-        </div>
-        <div class="section-subheader">
-          <h3 >Media Partners</h3>
-        </div>
-        <div class="cover_slider owl-carousel" >
-            <div class="brand_item text-center">
-               <a href="https://www.youtube.com/channel/UCpr-AwJ4AyzQSupU9HuFWOg"><img src="assets/img/brands/safeonnet.png" alt="brand"></a>
-            </div>
-
-        </div>
-        <div class="section-subheader">
-          <h3 >Sponsors</h3>
-        </div>
-        <div class="brand_carousel owl-carousel" >
-            <div class="brand_item text-center">
-                <a href="https://matic.network/"><img src="assets/img/brands/matic.png" alt="brand"></a>
-            </div> 
-            <div class="brand_item text-center">
-              <a href="https://github.com/"><img src="assets/img/brands/github.png" alt="brand"></a>
-          </div>
-          <div class="brand_item text-center">
-            <a href="https://www.gatsbyjs.org/"><img src="assets/img/brands/gatsby.png" alt="brand"></a>
-        </div> 
-        <div class="brand_item text-center">
-          <a href="https://www.wolfram.com/"><img src="assets/img/brands/wolfram.png" alt="brand"></a>
-      </div>
-      <div class="brand_item text-center">
-        <a href="https://tenorhut.com/"><img src="assets/img/brands/tenorhut_logo.png" alt="brand"></a>
-    </div>
-        </div>
-    </div>
-</section>
-<!--brands section end-->
-
-
-
-<!--footer start -->
-<footer>
-        <section id="contact" class="section-bg wow fadeInUp">
-
-                <div class="container">
-          
-                        <div class="section-header mb50">
-                                <h2 class="title_contact" style="padding-bottom: 20dp;">
-                                    Contact Us
-                                </h2>
-                            </div>
-          
-                  <div class="row contact-info">
-          
-                    <div class="col-md-4">
-                      <div class="contact-address">
-                        <i class="ion-ios-location-outline"></i>
-                        <h3>Address</h3>
-                        <address>IEEE MACE SB, </address>
-                        <address>Mar Athanasius College of Engineering, Kothamangalam, </address>
-                        <address>Kerala - 686 666</address>
-                      </div>
-                    </div>
-          
-                    <div class="col-md-4">
-                      <div class="contact-phone">
-                        <i class="ion-ios-telephone-outline"></i>
-                        <h3>Phone Number</h3>
-                        <p><a href="tel:+919188168223">+91 91881 68223</a></p>
-                        <p><a href="tel:+919188209053">+91 91882 09053</a></p>
-                      </div>
-                    </div>
-          
-                    <div class="col-md-4">
-                      <div class="contact-email">
-                        <i class="ion-ios-email-outline"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:hack-core@googlegroups.com">hack-core@googlegroups.com</a></p>
-                      </div>
-                    </div>
-          
-                  </div>
-          
-                </div>
-        </section><!-- #contact -->
     
-<div class="copyright_footer">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-12">
-                <p>Developed in association with <a href="http://macehub.in" target="_blank">MACEHUB</a></p>
+
+</head>
+
+<body>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+    
+        <div class="loader-section section-left"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="header-bar">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-10 col-lg-4">
+                        <h1 class="site-branding flex">
+                            <a href="#"><img src="./images/logo.png" width="150px"></a>
+                        </h1>
+                    </div>
+
+                    <div class="col-2 col-lg-8">
+                        <nav class="site-navigation">
+                            <div class="hamburger-menu d-lg-none">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div><!-- .hamburger-menu -->
+
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a name="#about-hack-sec">About .Hack( );</a></li>
+                                <li><a name="#winners">Top Teams</a></li>
+                                <li><a name="#video">After Movie</a></li>
+                                <li><a name="#gallery">Gallery</a></li>
+                                <li><a name="#sponsors-sec">Sponsors</a> </li>
+                            </ul><!-- flex -->
+                        </nav><!-- .site-navigation -->
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- container-fluid -->
+        </div><!-- header-bar -->
+    </header><!-- .site-header -->
+
+    <div class="hero-content">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="entry-header">
+                        <img src="./images/logos/hero_heading.png" alt="">
+                        <h2></h2>
+                    </div><!-- .entry-header -->
+                </div><!-- .col-12 -->
+            </div><!-- row -->
+
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="entry-footer">
+                        <div id="menuBall3" class="menuBall">
+                            <a href="#content-sec" class="ball greenball">
+                                <div class="menuText">
+                                    <!-- Explore -->
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
-            <div class="footer-contact">
-            <div class="social-links">
-              <a href="https://twitter.com/MaceSb" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.facebook.com/ieeemace/" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/ieee_mace_sb/" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="mailto:hack-core@googlegroups.com" class="email"><i class="fa fa-envelope-o"></i></a>
-              <a href="https://www.linkedin.com/company/ieee-student-branch-mace" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div><!-- .container -->
+    </div><!-- .hero-content -->
+
+
+    <div id="content-sec" class="content-section">
+        <div class="container">
+
+            <div class="row about-padding">
+                <div class="col-12" id="about-hack-sec">
+                    <div class="the-complete-lineup about-section">
+                        <div class="entry-title">
+                            <p>ABOUT .HACK( );</p>
+                            <h2>What is .hack( );?</h2>
+                        </div><!-- entry-title -->
+
+                        <div class="row the-complete-lineup-artists">
+                            <div class="col-12  col-lg-3 col-md-6 artist-single" data-aos="slide-up">
+                                <figure class="featured-image">
+                                    
+                                    <h4>What makes us awesome</h4>
+                                    <p>A platform for enthusiastic students and global industries to exchange their needs and ideas.Hosted
+                                         by IEEE MACE SB,24 hour hackathon,incorporating science and technology.</p>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12  col-lg-3 col-md-6 artist-single" data-aos="slide-up" data-aos-delay="0">
+                                <figure class="featured-image">
+                                    
+                                    <h4>All students welcome!</h4>
+                                    <p>.hack( ); is not solely for students pursuing a course in engineering,but for anyone and everyone 
+                                        aspiring technology and guiding the young ,talented ,free spirited minds.</p>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12  col-lg-3 col-md-6 artist-single" data-aos="slide-up"data-aos-delay="-50">
+                                <figure class="featured-image">
+                                    
+                                    <h4>What makes us unique</h4>
+                                    <p>Dream big,take-up the challenge and run the event successfully.A good technical competition,opportunity
+                                         to enlarge the networks,sharpen technical skills and much more.</p>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12  col-lg-3 col-md-6 artist-single" data-aos="slide-up" data-aos-delay="10">
+                                <figure class="featured-image">
+                                    
+                                    <h4>What's in the box</h4>
+                                    <p>.hack( ); provides a great opportunity for individuals to be part of a team and manifest their ideas 
+                                        into real projects.A 24 hour hackathon organized in partnership with organizations and startups.</p>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+                        </div><!-- the-complete-lineup-artists -->
+
+                        <div class="row justify-content-center">
+                            <div class="see-complete-lineup">
+                            </div>
+                        </div>
+                    </div><!-- the-complete-lineup -->
+                </div><!-- col-12 -->
+            </div><!-- row -->
+
+            <div class="row" id="winners">
+                <div class="col-12">
+                    <div class="lineup-artists-headline">
+                        <div class="entry-title">                            <h2>Hackers of 2020</h2>
+                        </div><!-- entry-title -->
+
+
+                        <div class="lineup-artists">
+
+                            <div class="lineup-artists-wrap flex flex-wrap" data-aos="slide-up">
+                                <figure class="featured-image">
+                                     <img src="images/Hackoverfow.jpg" alt=""> 
+                                </figure><!-- featured-image -->
+                                <div class="lineup-artists-description">
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            Hackoverflow &nbsp;&nbsp; <span class="first-prize">{ Winners }</span>
+                                        </div><!-- entry-title -->
+                                        <div class="entry-content">
+                                            <p>Unique by their idea of showing concern for our environment.A new approach to plant trees and nurture  the environment.</p>
+                                        </div><!-- entry-content -->
+                                    </div><!-- lineup-artists-description-container -->
+                                </div><!-- lineup-artists-description -->
+                            </div><!-- lineup-artists-wrap -->
+
+
+
+                            <div class="lineup-artists-wrap flex flex-wrap" data-aos="slide-up">
+                                <figure class="ordered-lineup-fig featured-image visible-xs">
+                                    <img src="./images/Alpha.jpg" alt="">
+                                </figure><!-- featured-image -->
+                                <div class="ordered-lineup-desc lineup-artists-description">
+                                    <figure class="featured-image d-md-none">
+                                    </figure><!-- featured-image -->
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            Team Alpha &nbsp;&nbsp; <span class="second-prize">{ 1<span>st</span> Runner Up }</span>
+                                        </div><!-- entry-title -->
+                                        <div class="entry-content">
+                                            <p>Unique by their striking idea of eco clean schedule for waste collection .Creating a solution for the waste management these times. </p>
+                                        </div><!-- entry-content -->
+                                    </div><!-- lineup-artists-description-container -->
+                                </div><!-- lineup-artists-description -->
+                                <figure class="ordered-lineup-fig featured-image hidden-xs">
+                                    <img src="./images/Alpha.jpg" alt="">
+                                </figure><!-- featured-image -->
+                            </div><!-- lineup-artists-wrap -->
+
+
+
+                            <div class="lineup-artists-wrap flex flex-wrap" data-aos="slide-up">
+                                <figure class="featured-image">
+                                    <img src="./images/Deadlock.jpg" alt="">
+                                </figure><!-- featured-image -->
+                                <div class="lineup-artists-description">
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            Deadlock &nbsp;&nbsp; <span class="third-prize">{ 2<span>nd</span> Runner Up }</span>
+                                        </div><!-- entry-title -->
+                                        <div class="entry-content">
+                                            <p>Sole by their idea of peer to peer learning that comes out of cognitive psychology and is applied within a mainstream of educational frameworks. </p>
+                                        </div><!-- entry-content -->
+                                    </div><!-- lineup-artists-description-container -->
+                                </div><!-- lineup-artists-description -->
+                            </div><!-- lineup-artists-wrap -->
+
+
+
+                            <div class="lineup-artists-wrap flex flex-wrap" data-aos="slide-up">
+                                <div class="ordered-lineup-desc lineup-artists-description">
+                                    <figure class="ordered-lineup-fig featured-image visible-xs">
+                                        <img src="./images/mel.jpg" alt="">
+                                    </figure><!-- featured-image -->
+                                    <div class="lineup-artists-description-container">
+                                        <div class="entry-title">
+                                            Kutty Coders &nbsp;&nbsp; <span class="special-prize">{ Special Prize }</span>
+                                        </div><!-- entry-title -->
+                                        <div class="entry-content">
+                                            <p>Quirky by their concept of Electric Vehicle static mode charging as a potential in the development of Electrified economy for future. </p>
+                                        </div><!-- entry-content -->
+                                    </div><!-- lineup-artists-description-container -->
+                                </div><!-- lineup-artists-description -->
+                                <figure class="ordered-lineup-fig featured-image hidden-xs">
+                                    <img src="./images/mel.jpg" alt="">
+                                </figure><!-- featured-image -->
+                            </div><!-- lineup-artists-wrap -->
+
+                        </div><!-- lineup-artists -->
+                    </div><!-- lineup-artists-headline -->
+                </div><!-- col-12 -->
+            </div><!-- row -->
+
+
+            <div class="row" id="video">
+                <div class="col-12">
+                    <div class="the-complete-lineup after-video">
+                        <div class="entry-title">
+                            <h2>.hack( ); 20 After Movie</h2>
+                        </div>
+                        <div class="col-12 video-content" >
+                            <div class="video-container">
+                                <iframe class="video"
+                                    src="https://www.youtube.com/embed/oDWp0DPhywI" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            <div class="col-12 col-md-6 ">
-                <ul class="footer_menu">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#speaker">Speakers</a>
-                    </li>
-                    <li>
-                        <a href="#schedule">Schedule</a>
-                    </li>
-                    <li>
-                        <a href="#faq">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                      <a href="coc.html">Code of Conduct</a>
-                    </li>
-                </ul>
+
+            <!-- ---------------------------------------- -->
+            <div class="row" id="counter">
+                <div class="col-12">
+                    <div class="the-complete-lineup">
+                        <div class="entry-title">
+                            <h2>At a Glance</h2>
+                        </div><!-- entry-title -->
+
+                        <div class="row num-counter">
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num counter">516</span>
+                                    <h4>Registrations</h4>
+                                 </div>
+                            </div>
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num counter">332</span>
+                                    <h4>Submissions</h4>
+                                 </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num counter">67</span>
+                                    <h4>Teams</h4>
+                                 </div>
+                            </div>
+                            <div class="col-lg-3">
+                                 <div class="single-coutnerup">
+                                    <span class="count-num counter">600</span>
+                                    <h4>Cups of Coffee Served</h4>
+                                 </div>
+                            </div>
+                        </div>
+
+
+                    </div><!-- the-complete-lineup -->
+                </div><!-- col-12 -->
+
+            </div><!-- row -->
+            <!-- -------------------------------------------------- -->
+
+            <div class="row" id="gallery">
+                <div class="col-12">
+                    <div class="the-complete-lineup">
+                        <div class="entry-title">
+\                            <h2>Walkthrough Hack20</h2>
+                        </div><!-- entry-title -->
+
+                        <div class="row the-complete-lineup-artists">
+
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc1.jpg" alt="" >
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc2.jpg" alt="">
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc3.jpg" alt="">
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc4.jpg" alt="">
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc5.jpg" alt="">
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+                            <div class="col-12 col-md-4 col-lg-4 artist-single col-xs-12 col-md-12" data-aos="slide-up">
+                                <figure class="featured-image" style="margin-bottom: 25px;">
+                                    <img src="./images/gallery/nc6.jpg" alt="">
+                                    <svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg" class="gallery-svg">
+                                        <rect x="10" y="10" width="100" height="100" stroke="black" fill="transparent" stroke-width="2"/>
+                                    </svg>
+                                </figure><!-- featured-image -->
+
+                            </div><!-- artist-single -->
+
+
+
+                            
+
+
+                            
+                        </div><!-- the-complete-lineup-artists -->
+
+                        <div class="row justify-content-center">
+                            <div class="see-complete-lineup">
+                            </div>
+                        </div>
+                    </div><!-- the-complete-lineup -->
+                </div><!-- col-12 -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+
+        <div class="homepage-next-events" id="sponsors-sec"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <h2>Our Sponsors</h2>
+                        </div><!-- entry-title -->
+                    </div><!-- col-12 -->
+                </div><!-- row -->
+            </div><!-- container -->
+
+            <div class="next-event-slider-wrap">
+                <div class="swiper-container next-event-slider">
+                    <div class="swiper-wrapper">
+
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://devfolio.co/" target="_blank"><img src="images/sponsors/devfolio.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://www.gatsbyjs.org/" target="_blank"><img src="images/sponsors/gatsby.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://www.ieee.org/" target="_blank"><img src="images/sponsors/ieee_logo.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://kuttycoders.in/" target="_blank"><img src="images/sponsors/kuttycoderslogo.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://matic.network/" target="_blank"><img src="images/sponsors/matic.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://studentpartners.microsoft.com/en-us" target="_blank"><img src="images/sponsors/msp1.png"  alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://studentpartners.microsoft.com/en-us" target="_blank"><img src="images/sponsors/msp2.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://pinmicro.com/en/index.html" target="_blank"><img src="images/sponsors/pinmicro.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://github.com//" target="_blank"><img src="images/sponsors/github.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://www.youtube.com/channel/UCpr-AwJ4AyzQSupU9HuFWOg" target="_blank"><img src="images/sponsors/safeonnet.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://tenorhut.com/" target="_blank"><img src="images/sponsors/tenorhut_logo.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+                        <div class="swiper-slide">
+                            <div class="next-event-content">
+                                <figure class="featured-image">
+                                    <a href="https://www.wolfram.com/" target="_blank"><img src="images/sponsors/wolfram.png" alt=""></a>
+                                </figure><!-- featured-image -->
+                            </div><!-- next-event-content -->
+                        </div><!-- swiper-slide" -->
+
+
+                    </div><!-- .swiper-wrapper -->
+                </div><!-- .swiper-container -->
+
+
+                <!-- .slider-button -->
+            </div><!-- .next-event-slider-wrap -->
+        </div><!-- homepage-next-events -->
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2>.hack( ); 2021;</h2>
+        </div><!-- .site-footer -->
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12"  style="position: relative; top: 80px;">
+                        <div class="entry-title" style="font-size: 100px; font-weight: 600;">
+                            .hack( ); 2021
+                        </div><!-- entry-title -->
+
+                        <div class="entry-mail">
+                            Coming Soon!!
+                        </div><!-- .entry-mail -->
+
+                        <div class="footer-social">
+                            <ul class="flex justify-content-center align-items-center">
+                            </ul>
+                        </div><!-- footer-social -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer-content-wrapper -->
+    </footer><!-- site-footer -->
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Developed In Association With MACEHUB
+                </div>
+                <div class="footer-social col-12">
+                    <ul class="flex justify-content-center align-items-center">
+                        <li><a href="https://www.facebook.com/ieeemace/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/ieee_mace_sb/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/MaceSb" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/ieee-student-branch-mace/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div><!-- footer-social -->
             </div>
         </div>
     </div>
-</div>
-</footer>
-<!--footer end -->
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  let devfolioOptions = {
-      buttonSelector: '#devfolio-apply-now',
-      key: 'hackmacehub',
-  }
 
-  let script = document.createElement('script');
-  script.src = "https://apply.devfolio.co";
-  document.head.append(script);
 
-  script.onload = function () {
-      new Devfolio(devfolioOptions);
-  }
+    <script>
+        let hero=document.querySelector(".hero-content");
+        let flag=0;
+        window.setInterval(function(e){
+            if(flag==0){
+                hero.className = 'hero-content cover1';
+                flag=1; 
+            }
+            else if(flag==1){
+                hero.className = 'hero-content cover2';
+                flag=2;
+            }
+            else if(flag==2){
+                hero.className = 'hero-content cover3';
+                flag=0;
+            }
+        },8000);
+    </script>
 
-  script.onerror = function () {
-      document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-          window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-      });
-  }
-});
-</script>
+    <script>
+        /*---------------------
+        Scroll To Target
+        ------------------------*/ 
+        let header=document.querySelectorAll(".site-header .site-navigation a");
 
-<!-- jquery -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- bootstrap -->
-<script src="assets/js/popper.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/waypoints.min.js"></script>
-<!--slick carousel -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!--parallax -->
-<script src="assets/js/parallax.min.js"></script>
-<!--Counter up -->
-<script src="assets/js/jquery.counterup.min.js"></script>
-<!--Counter down -->
-<script src="assets/js/jquery.countdown.min.js"></script>
-<!-- WOW JS -->
-<script src="assets/js/wow.min.js"></script>
-<!-- Custom js -->
-<script src="assets/js/main.js"></script>
+        function scrollToTargetAdjusted(x){
+            let headerTarget=document.querySelector(x);
+            let headerOffset=80;
+            let elementPosition=headerTarget.getBoundingClientRect().top;
+            let offsetPosition=elementPosition+headerOffset;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: "smooth"
+            }); 
+
+        }
+        for(let i=1;i<header.length;++i){
+            header[i].addEventListener("click",function(e){
+                headerTarget=e.target.getAttribute("name");
+                scrollToTargetAdjusted(headerTarget);
+            });
+        }
+    </script>
+
+
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="./js/jquery.rcounterup.js"></script>
+    <script>
+        $(function(){
+            $('.count-num').rCounter({
+                duration: 30
+            });
+        });
+    </script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        })
+    </script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
+    <script>
+       $(window).ready(function() {
+            $('body').css('overflow','hidden');
+            setTimeout(function(){
+                $('body').addClass('loaded');
+                $('h1').css('color','#222222');
+                $('body').css('overflow','visible');
+            }, 3000);
+            
+            setTimeout(function(){
+                $('.loaded #loader-wrapper').css('display','none');
+            }, 3300);
+        })
+    </script>
+
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600,  
+            once: true,
+            offset: 1,
+        });
+    </script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script>
+        var app = document.querySelector(".hero-content .entry-header h2");
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('24 Hours of Coding')
+            .pauseFor(3000)
+            .deleteAll()
+            .typeString('Endless Space for Innovation')
+            .pauseFor(3000)
+            .deleteAll()
+            .typeString('See You Soon.')
+            .pauseFor(3000)
+            // .deleteChars(7)
+            // .typeString('<strong>altered!</strong>')
+            // .pauseFor(2500)
+            .start();
+            // .pasteString('.hack();');
+    </script>
+
+
 </body>
 </html>
